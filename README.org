@@ -1,0 +1,28 @@
+#+Title:  ladders
+#+Author: ireina7
+
+Ladders of various study fields, New ideas are welcome!
+
+It's painful to have unsuitable learning materials for various
+levels of learners. Rare field of people share and list their learning
+steps which is extremely useful for new learners.
+
+Here, I want to share my learning materials of various fields and levels and
+you are welcome to share your learning experiences! Each field may have a
+special page of their own.
+
+** Structure
+- Linguistics
+  + Chinese
+  + English
+  + Japanese
+  + Math
+  + Music
+  + Program
+    * Scala
+    * Haskell
+    * Rust
+    * C++
+    * C
+    * Java
+    * Python
