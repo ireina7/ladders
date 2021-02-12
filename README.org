@@ -17,11 +17,16 @@ special page of their own.
   + English
   + Japanese
   + Math
+    * Probability
   + Music
+    * Theory
+    * Piano
+    * Guitar
   + Program
     * Scala
     * Haskell
     * Rust
+    * Coq
     * C++
     * C
     * Java
