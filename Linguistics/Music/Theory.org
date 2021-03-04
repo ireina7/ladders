@@ -1,4 +1,39 @@
 #+Title:  Music Theory
 #+Author: Ireina
 
+:THANKS:
+The following lists may come from many authors all over the entire Internet world, I list their original addresses here:
+- [[https://www.reddit.com/r/musictheory/comments/b7abzi/the_ultimate_collection_of_selfstudy_music_theory/][Reddit Music Thery self-study book list]]
+:END:
+
+
+* General
 - The Complete Idiot's Guide To Music Theory
+- The Complete Musician: An Integrated Approach to Tonal Theory, Analysis, and Listening
+
+
+* Harmony
+** Classical Period Harmony
+- Harmony and Voice Leading - Carl Schachter
+- Tonal Harmony - Stefan Kostka
+- Theory of Harmony - Arnold Schoenberg
+- Structural Functions of Harmony - Arnold Schoenberg
+- Practical Manual of Harmony - Nikolay Rimsky-Korsakov
+- Analyzing Classical Form: An Approach for the Classroom - William Caplin
+- Harmony and Melody by Elise Siegmeister
+
+** Modern 20th Century Harmony
+- Twentieth-Century Harmony: Creative Aspects and Practice
+
+
+* Jazz
+- The Jazz Harmony Book
+- Bert Ligon - JAZZ THEORY RESOURCES, VOL. 1 & TWO (Really complete)
+- Mark Levine - The Jazz Theory Book (Really good but not as complete as my first choice) (University Standard)
+- Bert Ligon - Connecting Chords with Linear Harmony (new way to think...)
+- Bert Ligon - COMPREHENSIVE TECHNIQUE for JAZZ MUSICIANS (Really good for practice)
+
+
+* Composition
+- Alan Belkin - Musical composition
+- Analyzing Classical form (duplication, but it is recommended for classical composition)
