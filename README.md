@@ -14,19 +14,19 @@ special page of their own.
 ## Structure
 
 <details>
-<summary>(Linguistics (click to expand)</summary>
+<summary>( Linguistics (click to expand)</summary>
 
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(Chinese</summary>
-&nbsp;&nbsp;&nbsp;&nbsp;)</details>
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(English</summary>
-&nbsp;&nbsp;&nbsp;&nbsp;)</details>
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(Japanese</summary>
-&nbsp;&nbsp;&nbsp;&nbsp;)</details>
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(Math</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( Chinese</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( English</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( Japanese</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( Math</summary>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Math/Probability.org">Probability</a></summary>
     </details>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(Music</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( Music</summary>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Theory.org">Theory</a></summary>
     </details>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Piano.org">Piano</a></summary>
@@ -34,7 +34,7 @@ special page of their own.
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Guitar.org">Guitar</a></summary>
     </details>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
-<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;(Programming</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( Programming</summary>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala</summary>
     </details>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++</summary>
