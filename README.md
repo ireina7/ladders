@@ -11,14 +11,16 @@ you are welcome to share your learning experiences! Each field may have a
 special page of their own.
 
 ## Structure
+
 <details>
 <summary>Linguistics</summary>
+
 + <details>
     <summary>Chinese</summary>
-    </details>
+  </details>
 + <details>
     <summary>English</summary>
-    </details>
+  </details>
 
 </details>
 
