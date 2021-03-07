@@ -10,12 +10,13 @@ Here, I want to share my learning materials of various fields and levels and
 you are welcome to share your learning experiences! Each field may have a
 special page of their own.
 
+
 ## Structure
 
 <details>
 <summary>Linguistics (click to expand)</summary>
 
-<details><summary>Chinese</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;<details><summary>Chinese</summary>
 </details>
 <details><summary>English</summary>
 </details>
