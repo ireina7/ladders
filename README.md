@@ -13,7 +13,7 @@ special page of their own.
 ## Structure
 
 <details>
-<summary>Linguistics</summary>
+<summary>Linguistics (click to unfold)</summary>
 
 <details><summary>Chinese</summary>
 </details>
@@ -22,15 +22,15 @@ special page of their own.
 <details><summary>Japanese</summary>
 </details>
 <details><summary>Math</summary>
-    <details><summary>Probability</summary>
+    <details><summary>Probability [file](./Linguistics/Math/Probability.org)</summary>
     </details>
 </details>
 <details><summary>Music</summary>
-    <details><summary>Theory</summary>
+    <details><summary>Theory [file](./Linguistics/Music/Theory.org)</summary>
     </details>
-    <details><summary>Piano</summary>
+    <details><summary>Piano [file](./Linguistics/Music/Piano.org)</summary>
     </details>
-    <details><summary>Guitar</summary>
+    <details><summary>Guitar [file](./Linguistics/Music/Guitar.org)</summary>
     </details>
 </details>
 <details><summary>Programming</summary>
