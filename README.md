@@ -16,7 +16,7 @@ special page of their own.
 <details>
 <summary>Linguistics (click to expand)</summary>
 
-&nbsp;&nbsp;&nbsp;&nbsp;<details><summary>Chinese</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Chinese</summary>
 </details>
 <details><summary>English</summary>
 </details>
