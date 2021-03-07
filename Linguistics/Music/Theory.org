@@ -7,7 +7,9 @@ The following lists may come from many authors all over the entire Internet worl
 - [[https://www.youtube.com/watch?v=qeS8txkoUH4][43 Music Theory Concepts That EVERY Modern Composer Should Master {The Music Theory Map}]]
 :END:
 
-
+#+BEGIN_export markdown
+This block contains *Markdown*.
+#+END_export
 <details><summary>CLICK ME</summary>
 123
 </details>
