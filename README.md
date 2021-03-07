@@ -21,41 +21,55 @@ special page of their own.
 + <details>
     <summary>English</summary>
   </details>
-
-</details>
-
-
-
-<details>
-<summary>Heading1</summary>
-
-some text
 + <details>
-    <summary>Heading1.1</summary>
-
-    some more text
-    + <details>
-        <summary>Heading1.1.1</summary>
-        even more text
+    <summary>Japanese</summary>
+  </details>
++ <details>
+    <summary>Math</summary>
+    * <details>
+        <summary>Probability</summary>
       </details>
-   </details>
+  </details>
++ <details>
+    <summary>Music</summary>
+    * <details>
+        <summary>Theory</summary>
+      </details>
+    * <details>
+        <summary>Piano</summary>
+      </details>
+    * <details>
+        <summary>Guitar</summary>
+      </details>
+  </details>
++ <details>
+    <summary>Programming</summary>
+    * <details>
+        <summary>Scala</summary>
+      </details>
+    * <details>
+        <summary>C++</summary>
+      </details>
+    * <details>
+        <summary>Haskell</summary>
+      </details>
+    * <details>
+        <summary>Rust</summary>
+      </details>
+    * <details>
+        <summary>Coq</summary>
+      </details>
+    * <details>
+        <summary>C</summary>
+      </details>
+    * <details>
+        <summary>Java</summary>
+      </details>
+    * <details>
+        <summary>Python</summary>
+      </details>
+  </details>
+
 </details>
-- Linguistics
-  + Chinese
-  + English
-  + Japanese
-  + Math
-    * Probability
-  + Music
-    * Theory
-    * Piano
-    * Guitar
-  + Program
-    * Scala
-    * Haskell
-    * Rust
-    * Coq
-    * C++
-    * C
-    * Java
-    * Python
+
+
