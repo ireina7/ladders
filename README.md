@@ -13,7 +13,7 @@ special page of their own.
 ## Structure
 
 <details>
-<summary>Linguistics (click to unfold)</summary>
+<summary>Linguistics (click to expand)</summary>
 
 <details><summary>Chinese</summary>
 </details>
@@ -23,7 +23,7 @@ special page of their own.
 </details>
 <details><summary>Math</summary>
     <details><summary>Probability</summary><p>
-        [file](./Linguistics/Math/Probability.org)
+        <a href="./Linguistics/Math/Probability.org">file</a>
     </p></details>
 </details>
 <details><summary>Music</summary>
