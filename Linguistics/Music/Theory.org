@@ -4,7 +4,55 @@
 :THANKS:
 The following lists may come from many authors all over the entire Internet world, I list their original addresses here:
 - [[https://www.reddit.com/r/musictheory/comments/b7abzi/the_ultimate_collection_of_selfstudy_music_theory/][Reddit Music Thery self-study book list]]
+- [[https://www.youtube.com/watch?v=qeS8txkoUH4][43 Music Theory Concepts That EVERY Modern Composer Should Master {The Music Theory Map}]]
 :END:
+
+
+* A learning map you can refer to
+1. Musical Alphabet
+2. Musical Staff
+3. Knowing the Fretboard
+4. Scale Shapes and the Major Scale
+5. Rhythm Basics
+6. Triplets, Swing, and Advanced Tuplets
+7. Meter and Time Signature
+8. Audiation and Melody
+9. Key Signatures and Enharmonics
+10. Scale Degrees
+11. Triads
+12. Movable Chords
+13. Diatonic Major Chords + Roman Numerals
+14. Writing Chord Progressions in Major
+15. Solo-ing with the Pentatonic Major Scale
+16. Suspended Chords
+17. The Minor Scale + Diatonic Chords
+18. Writing progressions in Minor
+19. Soloing with the Pentatonic Minor Scale
+20. Ear Training Intervals and Chords
+21. Power Chords
+22. Relative Scales and Tonul Center
+23. Combining Pentatonic Shapes
+24. Arpeggios and Chord Tone Soloing
+25. Inversions and Slash Chords
+26. Popular 7th Chords
+27. Diatonic 7th Chords
+28. Blues
+29. Secondary Dominant Chords
+30. Diminished Chords
+31. Augmented Chords.
+32. Harmonic Minor
+33. Writing Melodies
+34. Passing Tones and Chromaticism
+35. Introducing Modes
+36. Transpositions and Modulations
+37. Modal Interchange
+38. Song Sections
+39. Song Structures
+40. Writing Drum Parts
+41. Writing Bass Lines
+42. Creating a Full Song
+43. Advanced Theory Concepts: Timbre, Harmony, Tunings, and World Music
+
 
 
 * General
