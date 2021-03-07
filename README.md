@@ -35,7 +35,7 @@ special page of their own.
 </details>
 <details><summary>Programming</summary>
 - <details><summary>Scala</summary>
- </details>
+   </details>
 - <details><summary>C++</summary>
  </details>
 - <details><summary>Haskell</summary>
