@@ -1,5 +1,4 @@
-#+Title:  ladders
-#+Author: ireina7
+# Ladders
 
 Ladders of various study fields, New ideas are welcome!
 
@@ -11,7 +10,17 @@ Here, I want to share my learning materials of various fields and levels and
 you are welcome to share your learning experiences! Each field may have a
 special page of their own.
 
-** Structure
+## Structure
+<details>
+<summary>Linguistics</summary>
+    + <details>
+      <summary>Chinese</summary>
+      </details>
+    + <details>
+      <summary>English</summary>
+      </details>
+
+</details>
 - Linguistics
   + Chinese
   + English
