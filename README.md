@@ -13,12 +13,12 @@ special page of their own.
 ## Structure
 <details>
 <summary>Linguistics</summary>
-    + <details>
-      <summary>Chinese</summary>
-      </details>
-    + <details>
-      <summary>English</summary>
-      </details>
++ <details>
+    <summary>Chinese</summary>
+    </details>
++ <details>
+    <summary>English</summary>
+    </details>
 
 </details>
 - Linguistics
