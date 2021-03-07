@@ -15,57 +15,57 @@ special page of their own.
 <details>
 <summary>Linguistics</summary>
 
-    <details>
-        <summary>Chinese</summary>
-    </details>
-+ <details>
+- <details>
+    <summary>Chinese</summary>
+  </details>
+- <details>
     <summary>English</summary>
   </details>
-+ <details>
+- <details>
     <summary>Japanese</summary>
   </details>
-+ <details>
+- <details>
     <summary>Math</summary>
-    * <details>
+    - <details>
         <summary>Probability</summary>
       </details>
   </details>
-+ <details>
+- <details>
     <summary>Music</summary>
-    * <details>
+    - <details>
         <summary>Theory</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Piano</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Guitar</summary>
       </details>
   </details>
-+ <details>
+- <details>
     <summary>Programming</summary>
-    * <details>
+    - <details>
         <summary>Scala</summary>
       </details>
-    * <details>
+    - <details>
         <summary>C++</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Haskell</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Rust</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Coq</summary>
       </details>
-    * <details>
+    - <details>
         <summary>C</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Java</summary>
       </details>
-    * <details>
+    - <details>
         <summary>Python</summary>
       </details>
   </details>
