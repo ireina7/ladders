@@ -22,15 +22,15 @@ special page of their own.
 <details><summary>Japanese</summary>
 </details>
 <details><summary>Math</summary>
-    <details><summary>Probability <a href="./Linguistics/Math/Probability.org">file</a></summary>
+    <details><summary><a href="./Linguistics/Math/Probability.org">Probability</a></summary>
     </details>
 </details>
 <details><summary>Music</summary>
-    <details><summary>Theory [file](./Linguistics/Music/Theory.org)</summary>
+    <details><summary><a href="./Linguistics/Music/Theory.org">Theory</a></summary>
     </details>
-    <details><summary>Piano [file](./Linguistics/Music/Piano.org)</summary>
+    <details><summary><a href="./Linguistics/Music/Piano.org">Piano</a></summary>
     </details>
-    <details><summary>Guitar [file](./Linguistics/Music/Guitar.org)</summary>
+    <details><summary><a href="./Linguistics/Music/Guitar.org">Guitar</a></summary>
     </details>
 </details>
 <details><summary>Programming</summary>
