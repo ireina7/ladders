@@ -22,9 +22,8 @@ special page of their own.
 <details><summary>Japanese</summary>
 </details>
 <details><summary>Math</summary>
-    <details><summary>Probability</summary><p>
-        <a href="./Linguistics/Math/Probability.org">file</a>
-    </p></details>
+    <details><summary>Probability <a href="./Linguistics/Math/Probability.org">file</a></summary>
+    </details>
 </details>
 <details><summary>Music</summary>
     <details><summary>Theory [file](./Linguistics/Music/Theory.org)</summary>
