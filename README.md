@@ -15,58 +15,40 @@ special page of their own.
 <details>
 <summary>Linguistics</summary>
 
-- <details>
-    <summary>Chinese</summary>
+- <details><summary>Chinese</summary>
   </details>
-- <details>
-    <summary>English</summary>
+- <details><summary>English</summary>
   </details>
-- <details>
-    <summary>Japanese</summary>
+- <details><summary>Japanese</summary>
   </details>
-- <details>
-    <summary>Math</summary>
-    - <details>
-        <summary>Probability</summary>
+- <details><summary>Math</summary>
+    - <details><summary>Probability</summary>
       </details>
   </details>
-- <details>
-    <summary>Music</summary>
-    - <details>
-        <summary>Theory</summary>
+- <details><summary>Music</summary>
+    - <details><summary>Theory</summary>
       </details>
-    - <details>
-        <summary>Piano</summary>
+    - <details><summary>Piano</summary>
       </details>
-    - <details>
-        <summary>Guitar</summary>
+    - <details><summary>Guitar</summary>
       </details>
   </details>
-- <details>
-    <summary>Programming</summary>
-    - <details>
-        <summary>Scala</summary>
+- <details><summary>Programming</summary>
+    - <details><summary>Scala</summary>
       </details>
-    - <details>
-        <summary>C++</summary>
+    - <details><summary>C++</summary>
       </details>
-    - <details>
-        <summary>Haskell</summary>
+    - <details><summary>Haskell</summary>
       </details>
-    - <details>
-        <summary>Rust</summary>
+    - <details><summary>Rust</summary>
       </details>
-    - <details>
-        <summary>Coq</summary>
+    - <details><summary>Coq</summary>
       </details>
-    - <details>
-        <summary>C</summary>
+    - <details><summary>C</summary>
       </details>
-    - <details>
-        <summary>Java</summary>
+    - <details><summary>Java</summary>
       </details>
-    - <details>
-        <summary>Python</summary>
+    - <details><summary>Python</summary>
       </details>
   </details>
 
