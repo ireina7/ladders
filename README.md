@@ -18,38 +18,38 @@ special page of their own.
 
 <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Chinese</summary>
 </details>
-<details><summary>English</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;English</summary>
 </details>
-<details><summary>Japanese</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Japanese</summary>
 </details>
-<details><summary>Math</summary>
-    <details><summary><a href="./Linguistics/Math/Probability.org">Probability</a></summary>
-    </details>
-</details>
-<details><summary>Music</summary>
-    <details><summary><a href="./Linguistics/Music/Theory.org">Theory</a></summary>
-    </details>
-    <details><summary><a href="./Linguistics/Music/Piano.org">Piano</a></summary>
-    </details>
-    <details><summary><a href="./Linguistics/Music/Guitar.org">Guitar</a></summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Math</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Math/Probability.org">Probability</a></summary>
     </details>
 </details>
-<details><summary>Programming</summary>
-    <details><summary>Scala</summary>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Music</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Theory.org">Theory</a></summary>
     </details>
-    <details><summary>C++</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Piano.org">Piano</a></summary>
     </details>
-    <details><summary>Haskell</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Guitar.org">Guitar</a></summary>
     </details>
-    <details><summary>Rust</summary>
+</details>
+<details><summary>&nbsp;&nbsp;&nbsp;&nbsp;Programming</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scala</summary>
     </details>
-    <details><summary>Coq</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++</summary>
     </details>
-    <details><summary>C</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Haskell</summary>
     </details>
-    <details><summary>Java</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rust</summary>
     </details>
-    <details><summary>Python</summary>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coq</summary>
+    </details>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</summary>
+    </details>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java</summary>
+    </details>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python</summary>
     </details>
 </details>
 
