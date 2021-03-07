@@ -22,9 +22,9 @@ special page of their own.
 <details><summary>Japanese</summary>
 </details>
 <details><summary>Math</summary>
-    <details><summary>Probability</summary>
+    <details><summary>Probability</summary><p>
         [file](./Linguistics/Math/Probability.org)
-    </details>
+    </p></details>
 </details>
 <details><summary>Music</summary>
     <details><summary>Theory [file](./Linguistics/Music/Theory.org)</summary>
