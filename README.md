@@ -22,7 +22,7 @@ special page of their own.
 <details><summary>Japanese</summary>
 </details>
 <details><summary>Math</summary>
-    <details><summary>Probability [file](./Linguistics/Math/Probability.org)</summary>
+    <details><summary>Probability <p>[file](./Linguistics/Math/Probability.org)</p></summary>
     </details>
 </details>
 <details><summary>Music</summary>
