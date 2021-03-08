@@ -12,6 +12,7 @@
 This map's original version is from [[https://www.douban.com/doulist/2545443/][从表到里学习JVM实现]] by RednaxelaFX (San Francisco Bay Area).
 :END:
 
+
 在社会化分工、软件行业细分专业化的趋势下，会真的参与到底层系统实现的人肯定是越来越少（比例上说）。真的会参与到JVM实现的人肯定是少数。
 但如果您对JVM是如何实现的有兴趣、充满好奇，却苦于没有足够系统的知识去深入，那么这个豆列就是为您打好基础而准备的。
 

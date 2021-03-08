@@ -5,7 +5,7 @@
 #+BEGIN_EXPORT html
  <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
 #+END_EXPORT
-
+This is the index of repo =Ladder=.
 
 * Linguistics
 ** Chinese
