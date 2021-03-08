@@ -18,4 +18,4 @@ you are welcome to share your learning experiences! Each field may have a
 special page of their own.
 
 ** Index
-Please jump to [[https://ireina7.github.io/ladders/index.html][the index page (HTML page)]] or [[file:./index.org][Org file]] to browse.
+Please jump to [[https://ireina7.github.io/ladders/][the index page (HTML page)]] or [[file:./index.org][Org file]] to browse.
