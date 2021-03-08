@@ -1,5 +1,9 @@
 #+Title:  Music Theory
 #+Author: Ireina
+#+SETUPFILE: https://ireina7.github.io/org-to-html-themes/org/theme-blog.setup
+#+BEGIN_EXPORT html
+ <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+#+END_EXPORT
 
 :THANKS:
 The following lists may come from many authors all over the entire Internet world, I list their original addresses here:
