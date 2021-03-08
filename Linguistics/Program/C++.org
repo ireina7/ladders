@@ -1,0 +1,17 @@
+#+Title:  C++ learning
+#+Author: Ireina7
+#+Date:   <2021-03-07 Sun>
+#+SETUPFILE: https://ireina7.github.io/org-to-html-themes/org/theme-blog.setup
+#+BEGIN_EXPORT html
+ <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+#+END_EXPORT
+
+* Learning Map for backend
+1. [book] C++ Primer
+2. [book] Effective C++ | Effective Modern C++ | More Effective C++
+3. [book lab] CSAPP Tiny web experiment*
+4. [course] MIT 6.824 2012 Spring course distributed system
+5. [book] Advanced Programming in the Unix Environment
+6. [book] Unix Network Programming
+7. Linux multi-thread programming with C++
+8. Github C++ repos programming

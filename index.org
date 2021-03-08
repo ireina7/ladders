@@ -21,8 +21,8 @@
 *** [[file:./Linguistics/Music/Guitar.org][Guitar]]
 ** Programming
 *** Scala
-*** C++
-*** Coq
+*** [[file:./Linguistics/Program/C++.org][C++]]
+*** [[file:./Linguistics/Program/Coq.org][Coq]]
 *** Haskell
 *** Rust
 *** C

@@ -1,0 +1,10 @@
+#+Title:  Coq learning
+#+Author: Ireina7
+#+Date:   <2021-03-07 Sun>
+#+SETUPFILE: https://ireina7.github.io/org-to-html-themes/org/theme-blog.setup
+#+BEGIN_EXPORT html
+ <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+#+END_EXPORT
+
+* Resources
+- [book] Software foundations

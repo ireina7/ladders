@@ -5,3 +5,20 @@
 #+BEGIN_EXPORT html
  <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
 #+END_EXPORT
+
+
+* Resources
+** Books
+- R. Diestel, Graph Theory, Springer, 2010.
+- J. Bondy and U. Murty, Graph Theory with Applications, North Holland, 1976.
+- J. Bondy and U. Murty, Graph Theory, Springer, 2008.
+- B. Bollobas, Modern Graph Theory, Springer, 1998.
+
+** Courses
+http://www1.maths.leeds.ac.uk/~pmt6sbc/3032/3032.html
+http://users.utu.fi/harju/graphtheory/graphtheory.pdf
+http://www-math.ucdenver.edu/~wcherowi/courses/m4408/gtln.html
+http://www.personal.psu.edu/cxg286/Math485.pdf
+http://www.warwick.ac.uk/~masgax/notes.pdf
+http://www.cs.elte.hu/~karolyi/GT/index.html
+http://ocw.mit.edu/courses/mathematics/18-315-combinatorial-theory-introduction-to-graph-theory-extremal-and-enumerative-combinatorics-spring-2005/
