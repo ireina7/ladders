@@ -6,6 +6,8 @@
  <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
 #+END_EXPORT
 
+[[./img/Cat.map.jpeg]]
+
 ** About
 Ladders of various study fields, New ideas are welcome!
 
