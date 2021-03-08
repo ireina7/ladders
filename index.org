@@ -23,6 +23,7 @@
 *** Scala
 *** [[file:./Linguistics/Program/C++.org][C++]]
 *** [[file:./Linguistics/Program/Coq.org][Coq]]
+*** [[file:./Linguistics/Program/JVM.org][JVM]]
 *** Haskell
 *** Rust
 *** C

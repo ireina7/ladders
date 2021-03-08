@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-03-08 Mon 21:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JVM study</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="ireina7" />
+<link rel="stylesheet" type="text/css" href="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/css/hideshow.css"/>
+<link rel="stylesheet" type="text/css" href="https://ireina7.github.io/org-to-html-themes/src/bigblow-theme-mine.css"/>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/bigblow.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/bigblow_theme/js/hideshow.js"></script>
+<script type="text/javascript" src="https://ireina7.github.io/org-to-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">JVM study</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4e699ca">1. A reference map</a>
+<ul>
+<li><a href="#org34c5c15">1.1. Listed books</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+
+
+<div id="outline-container-org4e699ca" class="outline-2">
+<h2 id="org4e699ca"><span class="section-number-2">1</span> A reference map</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This map's original version is from <a href="https://www.douban.com/doulist/2545443/">从表到里学习JVM实现</a> by RednaxelaFX (San Francisco Bay Area).
+</p>
+
+<p>
+在社会化分工、软件行业细分专业化的趋势下，会真的参与到底层系统实现的人肯定是越来越少（比例上说）。真的会参与到JVM实现的人肯定是少数。
+但如果您对JVM是如何实现的有兴趣、充满好奇，却苦于没有足够系统的知识去深入，那么这个豆列就是为您打好基础而准备的。
+</p>
+
+<p>
+如果只想用用Java用用JVM，对深入到实现细节无甚兴趣的话，这个豆列就请不必参考了，免得浪费钱浪费时间精力，呵呵 :-)
+</p>
+
+<p>
+本豆列的脉络是：
+</p>
+
+<ol class="org-ol">
+<li>JVM与Java语言规范</li>
+</ol>
+
+<p>
+要了解JVM是如何实现的，首先必须要知道JVM到底是什么、不是什么，表面上应该提供怎样的功能。为此，JVM规范必读，而且应该时常放在手边参考。
+而JVM的主要服务对象是Java编程语言。虽然JVM也可以支持众多其它语言，但JVM里的“J”仍然最重要，Java的语言特性影响了JVM的原始设计，所以Java语言规范也应该阅读。特别是，JVM关于线程和同步相关的规定都是交由Java语言规范的相关章节定义的。
+</p>
+
+<ol class="org-ol">
+<li>虚拟机概论</li>
+</ol>
+
+<p>
+这里选取《Virtual Machines: Versatile Platforms for Systems and Processes》，帮助您了解“虚拟机”一词到底指代什么，有什么不同类型，大概有哪些实现方法，等等。读完这本书有助获得一个清晰的大局观。
+</p>
+
+<ol class="org-ol">
+<li>为Java程序员从用户的角度介绍JVM的使用经验的几本书</li>
+</ol>
+
+<p>
+虽然这几本并没有深入到JVM实现的非常细节的角落，但对已经习惯用Java语言编程的程序员来说，有这么几本书带领自己从熟悉的领域进入不熟悉的领域总是件好事。
+这几本书中，最深入JVM内部的是《Oracle JRockit: The Definitive Guide》；有丰富调优建议的是《Java Performance》；结合实现大概介绍JVM的抽象概念的是周志明的《深入理解Java虚拟机》。
+</p>
+
+<ol class="org-ol">
+<li>虚拟机的入门级实现</li>
+</ol>
+
+<p>
+先通过《Language Implementation Patterns》了解编程语言的一些入门级实现方式，把高级语言编译器与虚拟机两个概念联系起来。
+</p>
+
+<p>
+然后通过《プログラミング言語を作る》了解非常简易的、用树遍历式以及字节码式解释器实现虚拟机大概是个怎么回事。虽然这本书没有实现JVM，但它介绍的Diksam与早期JVM的实现颇有相似之处，可参考。
+</p>
+
+<p>
+接下来《深入嵌入式Java虚拟机》介绍了一种实际的JVM——KVM的实现细节。KVM是CLDC的参考实现（RI）里的JVM，结构简单，资源消耗小，适合入门阅读。
+</p>
+
+<p>
+陈涛的《HotSpot实战》主要介绍了HotSpot VM的核心VM的实现。第一版的内容还不算深，介绍runtime的部分比较多，而介绍GC与动态编译器的具体实现的部分比较少。想对HotSpot VM的实现有初步了解，但担心GC与编译原理的知识太难的同学可以从这本书入手。
+（不过请注意自己对着代码确实把知识消化掉，因为这个第一版的内容有不少小错误嗯…）
+</p>
+
+<p>
+这部分最后是《The School of Niklaus Wirth》，里面有一章介绍了HotSpot Client Compiler (C1)的原始设计思路。这是个非常简单、但相对来说性能还不错的JIT编译器，可用于对JIT编译器的基本了解。这本书本身就很赞，不为学习虚拟机也可以一读。
+</p>
+
+<p>
+需要注意的是从“简易的JVM实现”到“高性能、复杂的JVM实现”跨度非常大；前者的许多部分的实现方式与后者相当不同。先从简易的实现开始入手主要是为了对JVM里大概都有些什么组件有所了解。但如果目标是了解高性能JVM的实现，那就必须在GC、编译原理方面打下更好的基础，重新洗一次脑。
+</p>
+
+<ol class="org-ol">
+<li>C++基础书</li>
+</ol>
+
+<p>
+下面要开始逐渐深入JVM的内部实现，如果没有良好的C或（与？）C++基础会比较吃力。虽然也有几乎完全用Java语言实现的高性能JVM，例如Maxine VM与Jikes RVM，但它们都是研究性质的；商用JVM实现仍然是C与C++的天下。
+</p>
+
+<p>
+这里我先推荐C++之父自己写的那本书来入门。虽然BS巨巨后来还出过本新书，而近来也渐渐开始有介绍C++11的入门书，但实际上现在多数JVM实现用的还是C99或非常古老的C++（连C++03都不一定用到了），所以用这本老书应该就够了。
+然后通过《深度探索C++对象模型》来学习C++对象模型的常见实现方式。这对后面理解Java对象模型的实现很有帮助。
+</p>
+
+<ol class="org-ol">
+<li>GC与编译原理的入门书</li>
+</ol>
+
+<p>
+GC书总共就那么几本，倒也没啥可挑的。《The Garbage Collection Handbook》是绝对必读。
+</p>
+
+<p>
+编译原理的书就稍微尴尬些。现有的编译原理书大都针对静态编译器、针对像C或C++那样的偏静态、偏native的语言。我还没读到过什么编译原理书是专门介绍JIT编译器或者说动态编译器的。《The Compiler Design Handbook》（<a href="http://book.douban.com/subject/2333166/%EF%BC%89%E7%AE%97%E6%98%AF%E6%9C%89%E4%B8%80%E7%AB%A0%E4%B8%93%E9%97%A8%E8%AE%B2%E5%8A%A8%E6%80%81%E7%BC%96%E8%AF%91%EF%BC%8C%E4%B8%8D%E8%BF%87%E4%B9%9F%E5%8F%AA%E6%98%AF%E5%BE%88%E5%85%A5%E9%97%A8%E7%9A%84%E4%BB%8B%E7%BB%8D">http://book.douban.com/subject/2333166/）算是有一章专门讲动态编译，不过也只是很入门的介绍</a>。
+静态与动态编译器会有些取舍上、实现策略上的差异，不过还好其核心的原理都是一样的，所以还是可以推荐几本书。龙书用来最初入门，鲸书用来补充一些优化相关的知识，EAC第二版用来学习编译器一种比较良好的逻辑组织方式，最后学一下针对现代机器的优化。《Optimizing Compilers for Modern Architectures》（<a href="http://book.douban.com/subject/2126867/%EF%BC%89%E6%98%AF%E6%88%91%E6%AF%94%E8%BE%83%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E6%9C%AC">http://book.douban.com/subject/2126867/）是我比较喜欢的一本</a>。
+</p>
+
+<ol class="org-ol">
+<li>介绍计算机体系结构的书</li>
+</ol>
+
+<p>
+实际JVM实现里，如果有JIT编译器或者动态编译器那它们的编译目标多半是底层机器的机器码。这就涉及到计算机体系结构了。
+如果您只对Java语言和抽象的JVM有一定了解，那可以用《计算机组成及汇编语言原理》来入门。这本书比较奇葩，用JVM的字节码指令集来当作真实机器介绍体系结构的概念。我并不太喜欢这本书，但感觉它对有Java背景的初学者来说应该有点用。要注意的是千万别只读这本书来入门，请结合CSAPP来重新洗一次脑。
+如果对C或C++已经有所了解，那《深入理解计算机系统》（CSAPP）是计算机体系结构入门的最适合的书了。
+</p>
+
+<ol class="org-ol">
+<li>进一步阅读</li>
+</ol>
+
+<p>
+到此为止各种抽象概念应该都了解得差不多了。那么要在真实的机器上实现高性能JVM，就必须要对真实机器的指令集细节有所了解。x86/x86-64、SPARC、ARM、MIPS，要在哪个平台上做高性能实现就要学习哪个平台的指令集及指令级别优化技巧。这里就不具体推荐书了。
+</p>
+
+<p>
+操作系统层面的知识同样重要。像是说JVM要实现线程、内存分配啥的，都可能要跟系统调用或CRT对系统调用的包装打交道。这部分也需要另外找书来读。我回头再考虑下要不要加几本道这个豆列里来。
+</p>
+
+<p>
+另外，从80年代开始高级语言虚拟机的实现技术有了突飞猛进的发展，但却没有专门的书对这个领域做综述和导读。多数有用的资料其实还是在论文里。光靠读书是远远不够用的，论文这块也请关注。
+</p>
+
+<p>
+顺便广告一下：我的博客里关于虚拟机的文章也推荐给大家阅读：<a href="http://rednaxelafx.iteye.com/blog/362738">http://rednaxelafx.iteye.com/blog/362738</a>
+</p>
+
+<p>
+<code>===================================</code>
+</p>
+
+<p>
+这个豆列没有漏掉《Inside the Java Virtual Machine, Second Edition》（ <a href="http://book.douban.com/subject/1788390/">http://book.douban.com/subject/1788390/</a> ，中文版《深入Java虚拟机(原书第2版)》，<a href="http://book.douban.com/subject/1138768/">http://book.douban.com/subject/1138768/</a>） ，只是我现在已经不再推荐它了。这本书刚出版的时候确实引起了一番学习Java虚拟机的热潮，但其部分内容从现在的角度看已经过时，特别是涉及JVM实现的部分。像火车算法什么的现在已经没有JVM实现使用。不过话说回来，了解了解这些过时的信息也没什么不好，前提是能自己分辨清楚哪些信息是适用于现在的JVM的，而哪些已经成为了历史。
+</p>
+
+<p>
+另外有一本清华大学出版社出的《解析Java虚拟机开发——权衡优化.高效和安全的最优方案》（<a href="http://book.douban.com/subject/24757135/%EF%BC%89%EF%BC%8C%E8%BF%99%E6%9C%AC%E7%BA%AF%E7%B2%B9%E6%98%AF%E5%AF%B9%E5%91%A8%E5%BF%97%E6%98%8E%E7%9A%84%E3%80%8A%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E3%80%8B%E4%B8%80%E4%B9%A6%E7%9A%84%E6%8A%84%E8%A2%AD%EF%BC%9B%E5%91%A8%E5%BF%97%E6%98%8E%E4%B8%8E%E5%87%BA%E7%89%88%E7%A4%BE%E5%AF%B9%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%E7%9A%84%E4%BE%B5%E6%9D%83%E8%A1%8C%E4%B8%BA%E6%8F%90%E8%B5%B7%E7%9A%84%E8%AF%89%E8%AE%BC%E5%B7%B2%E7%BB%8F%E8%83%9C%E8%AF%89%E3%80%82%E7%84%B6%E8%80%8C%E6%8A%84%E8%A2%AD%E4%B9%9F%E6%8A%84%E5%BE%97%E5%BE%88%E4%B8%8D%E7%BB%99%E5%8A%9B%EF%BC%8C%E5%8D%B0%E5%88%B7%E3%80%81%E6%8E%92%E7%89%88%E9%83%BD%E4%B8%8D%E5%A6%82%E5%8E%9F%E7%89%88%E3%80%82%E5%BB%BA%E8%AE%AE%E4%B8%8D%E8%A6%81%E8%B4%AD%E4%B9%B0">http://book.douban.com/subject/24757135/），这本纯粹是对周志明的《深入理解Java虚拟机》一书的抄袭；周志明与出版社对清华大学出版社的侵权行为提起的诉讼已经胜诉。然而抄袭也抄得很不给力，印刷、排版都不如原版。建议不要购买</a>。
+</p>
+</div>
+
+<div id="outline-container-org34c5c15" class="outline-3">
+<h3 id="org34c5c15"><span class="section-number-3">1.1</span> Listed books</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>The Java Language Specification, Java SE 7 Edition</li>
+<li>The Java Virtual Machine Specification, Java SE 7 Edition</li>
+<li>虚拟机</li>
+<li>Java Performance</li>
+<li>Oracle JRockit</li>
+<li>深入理解Java虚拟机</li>
+<li>深入理解Java虚拟机（第2版）</li>
+<li>HotSpot实战</li>
+<li>Language Implementation Patterns</li>
+<li>プログラミング言語を作る</li>
+<li>深入嵌入式Java虚拟机</li>
+<li>The School of Niklaus Wirth</li>
+<li>C++ 程序设计语言（特别版）（英文影印版）</li>
+<li>深度探索C++对象模型</li>
+<li>The Garbage Collection Handbook</li>
+<li>ガベージコレクションのアルゴリズムと実装</li>
+<li>编译原理 技术与工具</li>
+<li>高级编译器设计与实现</li>
+<li>Engineering a Compiler, Second Edition</li>
+<li>Optimizing Compilers for Modern Architectures</li>
+<li>计算机组成及汇编语言原理</li>
+<li>深入理解计算机系统（英文版·第2版）</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: ireina7</p>
+<p class="date">Created: 2021-03-08 Mon 21:32</p>
+<p class="validation"></p>
+</div>
+</body>
+</html>
