@@ -1,0 +1,43 @@
+#+Title:  Ladders
+#+Author: ireina7
+
+#+SETUPFILE: https://ireina7.github.io/org-to-html-themes/org/theme-blog.setup
+#+BEGIN_EXPORT html
+ <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+#+END_EXPORT
+
+* About
+Ladders of various study fields, New ideas are welcome!
+
+It's painful to have unsuitable learning materials for various
+levels of learners. Rare field of people share and list their learning
+steps which is extremely useful for new learners.
+
+Here, I want to share my learning materials of various fields and levels and
+you are welcome to share your learning experiences! Each field may have a
+special page of their own.
+
+
+* Structure
+** Linguistics
+*** Chinese
+*** English
+*** Japanese
+*** Math
+**** [[file:./Linguistics/Math/Probability.org][Probability]]
+**** [[file:./Linguistics/Math/Graph.org][Graph theory]]
+*** Music
+**** [[file:./Linguistics/Music/Theory.org][Theory]]
+**** Piano
+**** Keyboard
+**** [[file:./Linguistics/Music/Guitar.org][Guitar]]
+*** Programming
+**** Scala
+**** C++
+**** Coq
+**** Haskell
+**** Rust
+**** C
+**** TypeScript
+**** Java
+**** Python

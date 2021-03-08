@@ -25,6 +25,8 @@ special page of their own.
 <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( <b>Math</b></summary>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Math/Probability.org">Probability</a></summary>
     </details>
+    <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Math/Graph.org">Graph Theory</a></summary>
+    </details>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</details>
 <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;( <b>Music</b></summary>
     <details><summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./Linguistics/Music/Theory.org">Theory</a></summary>
