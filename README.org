@@ -6,7 +6,7 @@
  <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
 #+END_EXPORT
 
-* About
+** About
 Ladders of various study fields, New ideas are welcome!
 
 It's painful to have unsuitable learning materials for various
@@ -17,27 +17,5 @@ Here, I want to share my learning materials of various fields and levels and
 you are welcome to share your learning experiences! Each field may have a
 special page of their own.
 
-
-* Structure
-** Linguistics
-*** Chinese
-*** English
-*** Japanese
-*** Math
-**** [[file:./Linguistics/Math/Probability.org][Probability]]
-**** [[file:./Linguistics/Math/Graph.org][Graph theory]]
-*** Music
-**** [[file:./Linguistics/Music/Theory.org][Theory]]
-**** Piano
-**** Keyboard
-**** [[file:./Linguistics/Music/Guitar.org][Guitar]]
-*** Programming
-**** Scala
-**** C++
-**** Coq
-**** Haskell
-**** Rust
-**** C
-**** TypeScript
-**** Java
-**** Python
+** Index
+Please jump to [[https://ireina7.github.io/ladders/index.html][the index page (HTML page)]] or [[file:./index.org][Org file]] to browse.
