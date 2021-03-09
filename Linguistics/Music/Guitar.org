@@ -6,9 +6,12 @@
 #+END_EXPORT
 
 ** General
+- Guitar Fretboard Workbook by Barrett Tagliarino
+
 *** CAGED system
 - How to use the CAGED system to play a solo (PDF summary of [[https://youtu.be/0Qp26KcDrGw][youtube link]])
 - My personal blog CAGED maps [[https://ireina7.github.io/repo/blog/CAGED-system-for-guitar.html][post]].
+
 
 ** Metal
 - Troy Stetina Heavy metal rhythm guitar

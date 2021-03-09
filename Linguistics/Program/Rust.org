@@ -1,0 +1,16 @@
+#+Title:  Rust learning
+#+Author: Ireina7
+#+Date:   <2021-03-09 Tue>
+#+SETUPFILE: https://ireina7.github.io/org-to-html-themes/org/theme-blog.setup
+#+BEGIN_EXPORT html
+ <img src="https://ireina7.github.io/org-to-html-themes/img/k-on-q.png" style="width: 65%;" alt="The end of the world">
+#+END_EXPORT
+
+
+* Learning map A
+- [[https://doc.rust-lang.org/book/title-page.html][The official Rust book]]
+  This book is really a good place to start!
+
+* Resources
+- [[https://doc.rust-lang.org/book/title-page.html][The official Rust book]]
+- Programming Rust
