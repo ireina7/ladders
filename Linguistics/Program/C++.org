@@ -7,11 +7,15 @@
 #+END_EXPORT
 
 * Learning Map for backend
+:README:
+=*= means optional
+:END:
 1. [book] C++ Primer
-2. [book] Effective C++ | Effective Modern C++ | More Effective C++
-3. [book lab] CSAPP Tiny web experiment*
-4. [course] MIT 6.824 2012 Spring course distributed system
-5. [book] Advanced Programming in the Unix Environment
-6. [book] Unix Network Programming
-7. Linux multi-thread programming with C++
-8. Github C++ repos programming
+2. [book] C++ 程序设计语言（特别版）
+3. [book] Effective C++ | Effective Modern C++ | More Effective C++
+4. [book lab] CSAPP Tiny web experiment*
+5. [course] MIT 6.824 2012 Spring course distributed system
+6. [book] Advanced Programming in the Unix Environment
+7. [book] Unix Network Programming
+8. Linux multi-thread programming with C++
+9. Github C++ repos programming
