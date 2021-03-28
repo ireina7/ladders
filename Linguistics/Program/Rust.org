@@ -15,5 +15,5 @@
   This book has more diagrams of various situations and many useful examples.
 
 * Resources
-- [[https://doc.rust-lang.org/book/title-page.html][The official Rust book]]
-- Programming Rust by Jim Blandy
+
+- A Rust book list from [[https://github.com/sger/RustBooks/blob/master/README.md][Github@sger/RustBooks]] (Just in case, a backup is [[file:./Rust-books.md][here]]).
