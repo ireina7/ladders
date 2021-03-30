@@ -9,12 +9,12 @@
 
 * Learning map A
 - [[https://doc.rust-lang.org/book/title-page.html][The official Rust book]]
-  This book is really a good place to start!
+  + This book is really a good place to start!
 - Programming Rust by Jim Blandy
-  Now I assume this book should definitely be your second book after the official rust book.
-  This book has more diagrams of various situations and many useful examples.
+  + Now I assume this book should definitely be your second book after the official rust book.
+    This book also has more diagrams of various situations and many useful examples.
 - Learning Rust With Entirely Too Many Linked Lists
-  This should not be your first book into Rust, but it is quite helpful to understand Rust deeper!
+  + This should not be your first book into Rust, but it is quite helpful to understand Rust deeper!
 
 
 * Resources
