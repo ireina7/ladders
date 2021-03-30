@@ -13,7 +13,11 @@
 - Programming Rust by Jim Blandy
   Now I assume this book should definitely be your second book after the official rust book.
   This book has more diagrams of various situations and many useful examples.
+- Learning Rust With Entirely Too Many Linked Lists
+  This should not be your first book into Rust, but it is quite helpful to understand Rust deeper!
+
 
 * Resources
 
 - A Rust book list from [[https://github.com/sger/RustBooks/blob/master/README.md][Github@sger/RustBooks]] (Just in case, a backup is [[file:./Rust-books.md][here]]).
+- Learning Rust With Entirely Too Many Linked Lists
